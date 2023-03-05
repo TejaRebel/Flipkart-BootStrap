@@ -1,0 +1,153 @@
+*
+{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.header
+{
+  height: 60px;
+}
+
+.logo
+{
+margin-left: 165px; 
+}
+
+.search-bar
+{
+ width: 60px;
+ height: 30px;
+ background:white;
+ font-size: 20px;
+ color: black;
+}
+
+.search
+{
+  width: 32.5rem;
+  height: 30px;
+  color: black;
+}
+
+.search-input
+{
+  width: 32.5rem;
+  height: 30px;
+  color: black;
+  
+}
+
+.login
+{
+  width: 120px;
+  height: 30px;
+  border: none;
+  
+}
+
+.dropdown
+{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu 
+{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.btn-1
+{
+  background-color: transparent;
+  border: none;
+}
+
+.text1
+{
+text-decoration: none;
+}
+
+.text1:hover
+{
+text-decoration: none;
+}
+
+.header2
+{
+  height: 130px;
+}
+
+.card-text
+{
+  
+  font-size: 30px;
+  display: flex;
+  gap: 20px
+  
+}
+
+.card-img:hover
+{
+  transform: scale(1.1);
+}
+
+.card2
+{
+overflow: hidden;
+
+}
+.card2:hover
+{
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+.link-text
+{
+  text-decoration: none;
+}
+
+.link-text:hover
+{
+  text-decoration: none;
+}
+
+.footer-text
+{
+  font-size:12px ;
+  text-decoration: none;
+}
+
+.footer-text:hover
+{
+  text-decoration: none;
+}
+
+.footer
+{
+background-color: rgb(11, 11, 61);
+}
+
+.footer-text-1
+{
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer1
+{
+  border: 1px white solid;
+}
+
